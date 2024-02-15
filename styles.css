@@ -9,12 +9,12 @@ body {
 header {
     background-color: #ff6347;
     color: white;
-    padding: 10px 0;
+    padding:1px 0; /* Reduced padding */
 }
 
 .link-container {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 20px;
 }
@@ -34,11 +34,11 @@ header {
 
 footer {
     background-color: #333;
-    color: white;
+    color: rgb(209, 201, 47);
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding:0; /* Reduced padding */
 }
